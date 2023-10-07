@@ -1,8 +1,5 @@
-# React + Vite
+###Commit 1:Used prop-drilling to pass on the states.To pass a state from a parent component to its nth grandchild,you just need to pass it through all the middle components doesn't matter,if the components require the state or not.Also,everything inside the parent component is re-rendered,even if some components didn't even change.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Commit 2 and 3 : Used Context-Api so that you don't need to pass the states to every middle guy.But the re-rendering problem still exists.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###Commit 4:Recoil,a popular global state management tool where you can access the recoil state from anywhere and only that component which changes re-renders.
