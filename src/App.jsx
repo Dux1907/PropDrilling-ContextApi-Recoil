@@ -21,12 +21,12 @@ const App = () => {
       <h1 style={{ textAlign : 'center'}}>Counter App</h1>
     <Grid style={style} container spacing={2}>
       <Grid item xs = {10} md = {2}>
-          <Increase title={title} setTitle={setTitle} />
+          <Increase  />
       </Grid>
         <Grid item xs={10} md={2}>
           <TextField id="outlined-basic" label="Counter" variant="outlined" value={title}/> </Grid>
         <Grid item xs={10} md={2}>
-          <Decrease title={title} setTitle={setTitle}/>
+          <Decrease />
        </Grid>
         </Grid>
         </countContext.Provider>
